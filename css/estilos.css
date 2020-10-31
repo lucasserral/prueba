@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(192, 120, 120);
+    background-color: #bbbbbb;
     padding: 5px;
     font-family: Arial;
 }
@@ -15,13 +15,15 @@ body{
     border-radius: 50%;
 }
 #cabecera_butt{
+    display: flex;
     margin: 20px auto;
     width: 100px;
     height:50px;
     border-radius: 10px;
     background-color: #333333;
     color: #dddddd;
-    text-align: center;
+    align-items:center;
+    justify-content:center;
 }
 .sect{
     margin: auto;
