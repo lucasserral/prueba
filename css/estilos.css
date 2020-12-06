@@ -28,7 +28,29 @@ body{
     align-items:center;
     justify-content:center;
 }
-.sect{
+#contenido{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-width: 500px;
+    float: left;
+}
+#auxiliar-bar{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    float: left;
+}
+#auxiliar-bar p{
+    margin: 5px;
+}
+#aux-bar-form
+.aux-bar-input{
+    width: auto;
+    max-width: 250px;
+}
+.cont-sect{
     margin: 5px auto;
     padding: 10px 10px;
     background-color: #dddddd;
@@ -36,7 +58,7 @@ body{
     width: 95%;
     color: #333333;
 }
-.sect p{
+.cont-sect p{
     text-align: justify;
 }
 h1{
